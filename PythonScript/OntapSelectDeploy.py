@@ -148,7 +148,7 @@ def main():
     NodeRecords = ObjectNodes['records']
     # When there are no License, then EVAL Capacity is selected by default.
     if len(License) == 0:
-        storagepool_capacity = [2199023255552,2199023255552,2199023255552,2199023255552]
+        storagepool_capacity = [2199023255552,2199023255552,2199023255552,2199023255552,2199023255552,2199023255552,2199023255552,2199023255552]
         License = []
         # Get the temp eval licenses.
         ObjectLicenses = GetObject('license',"","","",api_user_name,api_user_password,Url)
