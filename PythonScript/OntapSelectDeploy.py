@@ -109,7 +109,7 @@ def main():
                 ResponsePOST = s.post(Url+'/hosts', json=jsonBody, auth=(api_user_name,api_user_password), verify=False)
                 json_data = json.loads(ResponsePOST.text)
                 JobID = json_data['job']['id']
-                GetJobStatus(JobID,api_user_name,api_user_password,Url,JobMessage,3)
+                GetJobStatus(JobID,api_user_name,api_user_password,Url,JobMessage,1)
         else:
             print(f'Host {Host} is already present..')
 
