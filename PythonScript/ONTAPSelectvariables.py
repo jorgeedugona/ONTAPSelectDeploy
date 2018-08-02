@@ -1,8 +1,28 @@
-# Variables to deploy ONTAP Select with Python.
+##########################################################
+##########################################################
+##########################################################
+# Copyright (c) 2018 NetApp, Inc. All rights reserved.
+# Specifications subject to change without notice.
+#
+# This sample code is provided AS IS, with no support or
+# warranties of any kind, including but not limited to
+# warranties of merchantability or fitness of any kind,
+# expressed or implied.
+# 
+# Requirements:
+# ONTAP Deploy 2.8 or newer.
+# Python 3.7
+# Datastores need to be presented to VMware before hand. 
 # The following vectors must be same size :
 # OSNode, ESXhost, storagepool_name, storage_capacity and License.
 # The size of these vectors will determine the number of nodes (e.g 1, 2, 4, 8)
-# The below is an example of a 4 node ONTAP Select Cluster. 
+# The below is an example of a 4 node ONTAP Select Cluster.
+#
+# Author: Jorge E Gomez Navarrete gjorge@netapp.com
+##########################################################
+##########################################################
+##########################################################
+
 api_user_name = "admin" #USER Account of Deploy.
 api_user_password = "password123" # Password of the user account of Deploy.
 Url = "https://192.168.0.10/api/v3" # IP address of the Deploy VM
