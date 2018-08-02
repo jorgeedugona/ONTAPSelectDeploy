@@ -77,7 +77,7 @@ def GetJobStatus(JobID,api_user_name,api_user_password,Url,JobMessage,Time):
     print(f'{JobMessage} status of Job is {Jobstate}')
 
 def main():
-    from ONTAPSelectvariables import api_user_name, api_user_password, Url, VCenter, OSPassword, \
+    from ONTAPSelectVariables import api_user_name, api_user_password, Url, VCenter, OSPassword, \
                                  VCenterPSS, VCenterUsername, ESXhosts, OSNode, License, storagepool_name, \
                                  storagepool_capacity, new_cluster_name, ontap_version, new_cluster_gateway, \
                                  new_cluster_ip, new_cluster_netmask, ntp_servers, domain_names, dns_ips, \
