@@ -84,7 +84,7 @@ def main():
                                  mgmt_net, data_net, int_net, instance_type
     
     if len(License) == 0:
-        L = [ESXhosts, OSNode, storagepool_name, storagepool_capacity]
+        L = [ESXhosts, OSNode, storagepool_name]
     else:
         L = [ESXhosts, OSNode, License, storagepool_name, storagepool_capacity]
 
