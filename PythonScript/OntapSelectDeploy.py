@@ -1,3 +1,24 @@
+##########################################################
+##########################################################
+##########################################################
+# Copyright (c) 2018 NetApp, Inc. All rights reserved.
+# Specifications subject to change without notice.
+#
+# This sample code is provided AS IS, with no support or
+# warranties of any kind, including but not limited to
+# warranties of merchantability or fitness of any kind,
+# expressed or implied.
+# 
+# Requirements:
+# ONTAP Deploy 2.8 or newer.
+# Python 3.7
+# Datastores need to be presented to VMware before hand. 
+#
+# Author: Jorge E Gomez Navarrete gjorge@netapp.com
+##########################################################
+##########################################################
+##########################################################
+
 import requests
 import warnings
 import json
