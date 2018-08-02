@@ -20,5 +20,9 @@ Deploy ONTAP Select using Python or PowerShell
 • To execute just run "OntapSelectDeploy", variables from "ONTAPSelectvariables" will be imported.   
 • Datastores need be presented to VMware before hand.
 
+Further documentation on ONTAP Select:   
+## Installation and Cluster Deployment Guide for VMware  
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2844263
 
-
+## ONTAP® Select 9 Quick Start Guide: Deploying an Evaluation Cluster on VMware:
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2844261
